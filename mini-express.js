@@ -67,7 +67,7 @@ class miniExpress {
 
             const resultList = this.match(method, url)
 
-            this.handle(req, res, stack)
+            this.handle(req, res, resultList)
         }
     }
 
